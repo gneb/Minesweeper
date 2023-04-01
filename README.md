@@ -9,3 +9,5 @@ let m = new Minesweeper({
     level: 'normal'
 });
 ```
+- Right mouse click to mark or unmark bomb.
+- Left mouse click to open.
