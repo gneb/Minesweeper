@@ -103,7 +103,7 @@ class Minesweeper {
                         e.target.innerHTML = '';
                     }
                 };
-                div.onmousedown = (e) => {
+                div.onclick = (e) => {
                     console.log(1);
                     if (e.target.innerHTML === '') {
                         if (this.blocks[i][j].bomb) {
